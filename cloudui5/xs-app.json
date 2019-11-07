@@ -1,0 +1,14 @@
+{
+  "welcomeFile": "/cloudui5/index.html",
+  "authenticationMethod": "route",
+  "logout": {
+    "logoutEndpoint": "/do/logout"
+  },
+  "routes": [
+    {
+      "source": "^/cloudui5/(.*)$",
+      "target": "$1",
+      "localDir": "webapp"
+    }
+  ]
+}
